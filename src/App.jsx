@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import Board from './components/board';
+import Heading from './components/heading';
+
 import './assets/stylesheets/board.css';
 import './assets/stylesheets/square.css';
 import './assets/stylesheets/heading.css';
 import './App.css';
-import Heading from './components/heading';
 
 function App() {
   const [gameKey, setGameKey] = useState(0);
