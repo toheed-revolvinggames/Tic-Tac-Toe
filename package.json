@@ -1,12 +1,15 @@
 {
-  "name": "tic-tac-toe",
+  "name": "Tic-TacToe",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "homepage": "https://toheed-revolvinggames.github.io/Tic-Tac-Toe",
   "scripts": {
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -21,6 +24,7 @@
     "eslint": "^9.29.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+    "gh-pages": "^6.3.0",
     "globals": "^16.2.0",
     "vite": "^7.0.0"
   }
